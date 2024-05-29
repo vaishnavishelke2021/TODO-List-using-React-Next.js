@@ -38,8 +38,8 @@ const page = () => {
           className=" w-full bg-[#201f1f92] py-1 mt-2 flex align-middle items-center justify-between px-3 border-b-[1px] border-[#f9f9f916]"
         >
           <h1
-            className={`text-[1rem] text-[#f9f9f9e7] text-center rounded-sm ${
-              t.completed ? "line-through" : ""
+            className={`text-[1rem] text-[#f9f9f9d8] text-center rounded-sm ${
+              t.completed ? "line-through text-[#ffffff52]" : ""
             }`}
           >
             {t.task}
